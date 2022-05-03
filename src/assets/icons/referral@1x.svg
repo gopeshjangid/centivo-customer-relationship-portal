@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/referral@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/referral" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,23 C6.4771525,23 2,18.5228475 2,13 C2,7.4771525 6.4771525,3 12,3 C17.5228475,3 22,7.4771525 22,13 C22,18.5228475 17.5228475,23 12,23 Z M12,21 C16.418278,21 20,17.418278 20,13 C20,8.581722 16.418278,5 12,5 C7.581722,5 4,8.581722 4,13 C4,17.418278 7.581722,21 12,21 Z" id="Combined-Shape" fill="#7A7E81"></path>
+        <circle id="Oval" stroke="#7A7E81" stroke-width="2" fill="#FFFFFF" cx="12" cy="5" r="3"></circle>
+        <circle id="Oval-Copy" stroke="#7A7E81" stroke-width="2" fill="#FFFFFF" cx="19" cy="18" r="3"></circle>
+        <circle id="Oval-Copy-2" stroke="#7A7E81" stroke-width="2" fill="#FFFFFF" cx="5" cy="18" r="3"></circle>
+    </g>
+</svg>

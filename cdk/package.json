@@ -1,0 +1,27 @@
+{
+    "name": "csr-portal-pipeline",
+    "version": "1.0.0",
+    "description": "csr portal pipeline project",
+    "main": "index.js",
+    "author": "thekevshow",
+    "license": "Centivo",
+    "scripts": {
+        "assume": "awsudo $1 $2",
+        "deploy": "cdk deploy $1 --require-approval never",
+        "build": "node scripts/build.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@aws-cdk/core": "1.102.0",
+        "aws-cdk": "1.102.0",
+        "centivo-cdk": "git+https://git-codecommit.us-east-1.amazonaws.com/v1/repos/aws-cdk-library#0.33.4"
+    },
+    "devDependencies": {
+        "aws-sdk": "2.755.0",
+        "awsudo": "^1.4.2",
+        "dotenv": "8.2.0",
+        "eslint": "6.6.0",
+        "jest": "^25.1.0",
+        "uuid": "8.3.0"
+    }
+}

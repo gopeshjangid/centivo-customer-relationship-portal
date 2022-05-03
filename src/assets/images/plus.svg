@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/plus</title>
+    <defs>
+        <path d="M12,4 C12.5522847,4 13,4.44771525 13,5 L13,5 L13,11 L19,11 C19.5128358,11 19.9355072,11.3860402 19.9932723,11.8833789 L20,12 C20,12.5522847 19.5522847,13 19,13 L19,13 L13,13 L13,19 C13,19.5128358 12.6139598,19.9355072 12.1166211,19.9932723 L12,20 C11.4477153,20 11,19.5522847 11,19 L11,19 L11,13 L5,13 C4.48716416,13 4.06449284,12.6139598 4.00672773,12.1166211 L4,12 C4,11.4477153 4.44771525,11 5,11 L5,11 L11,11 L11,5 C11,4.48716416 11.3860402,4.06449284 11.8833789,4.00672773 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-579.000000, -158.000000)">
+            <g id="Results-Listing" transform="translate(39.000000, 42.000000)">
+                <g id="Stacked-Group" transform="translate(20.000000, 0.000000)">
+                    <g id="View-Practictioner-accordion" transform="translate(0.000000, 107.000000)">
+                        <g id="Icon/chevron-right" transform="translate(516.000000, 5.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#ED008B" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

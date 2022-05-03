@@ -1,0 +1,74 @@
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+/* define custom variables for SCSS file*/
+@font-face {
+  font-family: 'Regular-Bold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-BoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-Medium';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-MediumItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.dobErrorMsg {
+  padding-left: 17px; }
+
+.search tr {
+  cursor: pointer; }
+
+.member-search-form .form-control {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.member-search-form .form-group {
+  margin-bottom: 20px; }
+
+.member-search-form .option-seperator p {
+  font-size: 11px;
+  position: relative;
+  color: #bbb;
+  font-weight: bold;
+  margin: 0; }
+  .member-search-form .option-seperator p::before, .member-search-form .option-seperator p::after {
+    content: '';
+    height: 2px;
+    display: block;
+    background: #dee2e6;
+    width: calc(50% - 20px);
+    position: absolute;
+    top: 8px; }
+  .member-search-form .option-seperator p::before {
+    left: 0; }
+  .member-search-form .option-seperator p::after {
+    right: 0; }

@@ -1,0 +1,106 @@
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+/* define custom variables for SCSS file*/
+@font-face {
+  font-family: 'Regular-Bold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-BoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-Medium';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-MediumItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* override bootstrap variables */
+.header {
+  border-bottom: solid 5px #00a79d;
+  padding: 2px 0;
+  background: #ffffff; }
+  .header .bg-light {
+    background-color: #ffffff !important;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start; }
+  .header .navbar-light .navbar-nav li {
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: solid 2px #ffffff;
+    margin-right: 10px;
+    padding: 0 10px; }
+    .header .navbar-light .navbar-nav li.active, .header .navbar-light .navbar-nav li:hover {
+      border: solid 2px #f1416f;
+      background: #f1416f;
+      position: relative; }
+      .header .navbar-light .navbar-nav li.active:before, .header .navbar-light .navbar-nav li:hover:before {
+        content: "";
+        height: 32px;
+        width: 18px;
+        position: absolute;
+        left: -2px;
+        bottom: -13px;
+        background: url("../../../assets/images/menu-arrow.jpg") no-repeat 0 0; }
+      .header .navbar-light .navbar-nav li.active .nav-link, .header .navbar-light .navbar-nav li.active .nav-link:hover, .header .navbar-light .navbar-nav li:hover .nav-link, .header .navbar-light .navbar-nav li:hover .nav-link:hover {
+        color: #ffffff; }
+    .header .navbar-light .navbar-nav li:last-child:hover {
+      border-color: #ffffff; }
+    .header .navbar-light .navbar-nav li.logout {
+      padding: 0;
+      margin: 0;
+      background: none; }
+      .header .navbar-light .navbar-nav li.logout:hover a {
+        color: #f1416f !important; }
+      .header .navbar-light .navbar-nav li.logout a {
+        font-size: 1.3em;
+        padding: 0.25rem 0rem; }
+      .header .navbar-light .navbar-nav li.logout:before {
+        height: 0;
+        width: 0; }
+
+@media (max-width: 767px) {
+  .header .navbar-light .navbar {
+    justify-content: flex-end; }
+  .header .navbar-light .navbar-nav {
+    padding-top: 1px; }
+    .header .navbar-light .navbar-nav li {
+      border-radius: 0px;
+      border-width: 0 0 1px 0 !important;
+      border-color: #ced4da;
+      margin: 0; }
+      .header .navbar-light .navbar-nav li.active, .header .navbar-light .navbar-nav li:hover {
+        border-width: 0 0 1px 0 !important; }
+        .header .navbar-light .navbar-nav li.active:before, .header .navbar-light .navbar-nav li:hover:before {
+          display: none; }
+      .header .navbar-light .navbar-nav li.logout {
+        padding: 0 10px;
+        margin: 0; }
+      .header .navbar-light .navbar-nav li:last-child {
+        border-bottom: 0px; } }

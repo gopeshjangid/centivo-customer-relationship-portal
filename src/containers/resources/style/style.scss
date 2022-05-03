@@ -1,0 +1,69 @@
+.resources-template {
+  padding: 20px 50px 50px 50px;
+  h2 {
+    font-size: 1.2em;
+    margin: 0px 0;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  ul {
+    padding-left: 0px;
+    li {
+      list-style-type: none;
+    }
+  }
+  &-label {
+    font-weight: 600;
+    font-size: 1.5rem !important;
+  }
+  .quick-access {
+    &-links {
+      margin-top: 30px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .find-client {
+    &::after {
+      content: '';
+      border-right: 2px solid #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+    .form-control {
+      &:focus {
+        border: 2px solid #00a79d;
+      }
+    }
+  }
+  .client-pdf {
+    margin: 15px 0;
+    a {
+      font-size: 14px;
+    }
+  }
+
+  .resource-autocomplete-wrapper {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .resources-template {
+    padding: 20px 0;
+    h2 {
+      font-size: 1em;
+      margin: 0px 0;
+    }
+    h3 {
+      font-size: 1em;
+    }
+  }
+}

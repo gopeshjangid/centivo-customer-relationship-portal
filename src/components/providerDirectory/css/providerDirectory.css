@@ -1,0 +1,818 @@
+btn-info.disabled, .btn-info:disabled {
+    background-color: grey !important;
+    border-color: grey;
+    color: black;
+    width: 
+    335px;
+    
+}
+
+.primaryCareQuizField {
+	display: flex;
+	flex-direction: column;
+	margin: 2rem auto 1rem;
+	
+}
+
+.DistanceBox input {
+	outline: none;
+	height: 5px;
+	border-radius: 2.5px;
+	margin-bottom: 19px;
+	appearance: none;
+	border: none;
+	background: #ececec;
+	cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 24px;
+	width: 24px;
+	background: #5586ef;
+	border-radius: 50%;
+	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.distanceContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.primaryCareQuizCheckbox {
+	display: flex;
+	flex-direction: row;
+}
+
+.primaryCareQuizCheckbox input {
+	height: 22px;
+	width: 22px;
+	border-radius: 4px;
+	background-color: #5586ef;
+}
+
+.newPatientsCkeckbox {
+	margin-top: 1rem;
+}
+
+.newPatientsCkeckbox label {
+	color: #444444 !important;
+	font-family: Regular !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+	letter-spacing: 0 !important;
+	line-height: 22px !important;
+}
+.genderField {
+	flex-direction: row;
+	border-radius: 4px;
+	margin: 1rem auto 1rem;
+}
+
+.quizGenderType {
+	width: 33%;
+	box-sizing: border-box;
+	border: none;
+	height: 50px;
+	border-left: 1px solid #bbbdbf;
+	background-color: #ffffff;
+	color: #95989a;
+	font-family: Regular;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-align: center;
+	outline: none;
+	border-radius: 2px;
+}
+.selectedGenderType {
+	background-color: #5586ef;
+	color: #ffffff;
+	border: none;
+}
+.genderFieldBox {
+	display: flex;
+	flex-direction: column;
+	margin: 0rem auto 0rem;
+	max-width: 335px;
+	width: 100%;
+}
+.customBorder {
+	border-left: 1px solid #bbbdbf !important;
+	border-right: 1px solid #bbbdbf !important;
+}
+.genderFieldBox label {
+	float: left;
+	color: #444444;
+	font-family: Regular;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+	text-align: left;
+}
+
+.AcceptNewCheckbox {
+    display: flex;
+    height: 22px;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-top: 5px;
+}
+label {
+    height: 19px;
+    color: #444444 !important;
+    font-family: Regular;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: 0 !important;
+    line-height: 19px !important;
+}
+.AcceptNewCheckbox label {
+    padding-top :5px;
+    
+}
+.AcceptNewCheckbox input {
+  height: 22px;
+  width: 22px;;
+  left : 32px;
+}
+
+.filterHeading {
+    margin-top: 3rem;
+}
+
+
+.member-search-form .form-control {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px; }
+  
+  .member-search-form .form-group {
+	margin-bottom: 20px; }
+  
+  .member-search-form .option-seperator p {
+	font-size: 11px;
+	position: relative;
+	color: #bbb;
+	font-weight: bold;
+	margin: 0; }
+	.member-search-form .option-seperator p::before, .member-search-form .option-seperator p::after {
+	  content: '';
+	  height: 2px;
+	  display: block;
+	  background: #dee2e6;
+	  width: calc(50% - 20px);
+	  position: absolute;
+	  top: 8px; }
+	.member-search-form .option-seperator p::before {
+	  left: 0; }
+	.member-search-form .option-seperator p::after {
+	  right: 0; }
+
+	  
+.close-icon {
+	border: 1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+	outline: 0;
+	cursor: pointer;
+}
+.close-icon:after {
+	content: '';
+	background: url(../../../assets/images/clearIcon.jfif) center;
+	display: block;
+	width: 18.33px;
+	height: 18.33px;
+	position: absolute;
+	background-color: white;
+	z-index: 0;
+	right: 79px;
+	top: 47px;
+	bottom: 15px;
+	border: 1px solid #bbbdbf;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: normal;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.zipCodeClose:after {
+	top: 47px !important;
+}
+.zipLocation:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+.practinorNameField:not(:valid) ~ .close-icon {
+	display: none;
+}
+
+.practitionarBox{
+	max-height: 79px;;
+}
+
+
+.listBody{
+	margin-bottom: 12px;;
+	padding-bottom: 5px !important;
+}
+.zipLocation {
+	padding-left: 30px;;
+}
+
+.searchIcon {
+	width :20px;
+	position: absolute;
+	top: 44px;
+	left: 20px;
+}
+
+
+.mapIcon {
+	width :20px;
+	position: absolute;
+	top: 44px;
+	left: 20px;
+}
+
+.practinorNameField {
+	padding-left: 30px;;
+}
+
+.member-search-btn {
+  height: 40px;
+  width: 330px;
+  border-radius: 40px;
+  background-color: #EC008C;
+}
+
+.filter-label {
+	height: 24px !important;
+  width: 56px !important;
+  color: #1F124F !important;
+  font-family: Regular !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  letter-spacing: 0;
+  line-height: 24px !important;
+}
+
+.clear-all-btn {
+  height: 22px !important;
+  color: #95989A !important;
+  font-family: Regular !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0;
+  line-height: 22px !important;
+  text-align: right !important;
+  cursor: pointer;
+}
+
+.genderBox {
+	box-sizing: border-box;
+	height: 42px;
+	width: 112px;
+	border: 1px solid #BBBDBF;
+	background-color: #FFFFFF;
+	color: #95989A;
+  font-family: Regular;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+}
+
+.genderSelected {
+  border: 1px solid #5586EF !important;
+  background-color: #5586EF !important;
+  color: #FFFFFF !important;
+}
+
+.checkbox-label {
+		height: 19px;
+		color: #444444;
+		font-family: Regular;
+		font-size: 16px;
+		font-weight: 500;
+		letter-spacing: 0;
+		line-height: 19px;
+}
+
+.provider-specialty{
+	height: 22px;
+  color: #7A7E81;
+  font-family: Regular;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+
+.provider-name {
+	
+	color: #1F124F;
+	font-family: Regular;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 56px;
+}
+
+.about-provider {
+	height: 37px;
+	width: 80px;
+	color: #1F124F;
+	font-family: Regular;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 37px;
+}
+
+.provider-details-title{
+	color: #444444;
+	font-family: Regular;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 22px;
+}
+
+.provider-details-info{
+
+  color: #95989A;
+  font-family: Regular;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.margin-top-15 {
+	margin-top: 15px;;
+}
+
+.provider-distance{
+	height: 22px;
+  color: #444444;
+  font-family: Regular;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.contact-details{
+	display: flex;
+	justify-content: space-between;
+}
+
+.provider-location-info{
+  width: 300px;
+  color: #444444;
+  font-family: Regular;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-left: 18px;
+  margin-left: 12px;
+}
+
+.practice-phone{
+	display: flex;
+	width: 33%;;
+	justify-content: space-between;
+}
+
+.arrow-left {
+	background-image: url("../../../assets/icons/arrow-left.svg");
+}
+
+.backtoSearch {
+	margin-left: -47px !important;
+    padding-right: 13px;
+	cursor: pointer;
+}
+
+.provider-list-item {
+	cursor: pointer;
+}
+
+.icon-map-pin-primary {
+	background-image: url("../../../assets/icons/map-pin@1x.svg");
+}
+
+.mapBox{
+	display: flex;
+}
+.mapBox i {
+	margin-top: 4px;
+	margin-right: 10px;
+	color: #00A69E;
+}
+
+.provider-location-title {
+
+}
+
+.icon-phone-primary {
+	background-image: url("../../../assets/icons/phone@1x.svg");
+}
+
+.phone-fax  {
+	background-image: url("../../../assets/icons/fax@1x.svg");
+}
+
+.location-box {
+	margin-top: 20px;
+}
+
+.formSelect .memberSelect-__control{
+  box-sizing: border-box;
+  height: 50px;
+  width: 330px;
+  border: 1px solid #BBBDBF;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.formInput{
+	box-sizing: border-box;
+  height: 50px;
+  width: 330px;
+  border: 1px solid #BBBDBF;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+}
+
+.label {
+	height: 18px;
+  color: #333333;
+  font-family: Regular;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.disabled-btn {
+	border-radius: 40px;
+  background-color: #BBBDBF;
+}
+
+.search-btn {
+	height: 40px;
+  width: 330px;
+  border-radius: 40px;
+  background-color: #EC008C;
+}
+
+.clearAllBox{
+	padding-right: 45px;;
+}
+
+.practitionarColumn{
+	max-height: 79px !important;
+}
+.network-phone{
+	display: flex;
+	margin-top: 10px;
+}
+.memberSelect-__placeholder{
+	color: #BBBDBF;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 19px;
+}
+
+.formInput::placeholder{
+	color: #BBBDBF;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 19px;
+}
+
+.input-error{
+	box-sizing: border-box;
+	height: 50px;
+	width: 330px;
+	border: 1px solid #D62020;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+}
+
+.error-badge {
+	color: #D62020;
+  font-family: Regular;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 14px;
+}
+
+.acceptNewPatient {
+	color: #444444 !important;
+	font-family: Regular;
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	letter-spacing: 0;
+	line-height: 22px !important;
+}
+
+.locationRange{
+	width: 335px !important;
+}
+
+.practicePhone{
+	height: 48px;
+  width: 480px;
+	color: #444444;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.address {
+	color: #444444;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.practiceSpecility{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.practiceListSpecility{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+	margin-top: 8px;;
+}
+.practiceName  {
+	color: #1F124F;
+	font-family: Regular;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.networkPracticeName {
+	height: 24px;
+	width: 480px;
+	color: #1F124F;
+	font-family: Regular;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+
+.practiceGroupName{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 13px;
+}
+
+.distanceText{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.6px;
+	line-height: 14px;	
+}
+
+.practicePhoneDetails{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.practictionarsListWrapper{
+	margin-top: 20px;
+
+}
+
+.openPrDetail{
+	text-align: right;;
+}
+
+.practiceListPhoneIcon{
+	margin-bottom: 10px;
+    margin-left: 6px;
+}
+
+.practiceListPhoneBox {
+	padding-top: 9px;
+}
+.practiceListPhone{
+	margin-left: 26px !important;
+}
+
+.network-phone{
+	display: flex;
+}
+
+.networkListPhone{
+	margin-left: 10px !important;
+}
+
+
+.practitionarList {
+  background-color: #FFFFFF;
+  box-shadow: 0 -1px 0 0 #ECECEC;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.practitionarList .practiceName {
+	margin-bottom: -10px;
+}
+
+.practiceDetailsTopBar{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #ECECEC;
+    margin-top: 12px;
+	padding-top: 15px;;
+}
+
+.openIcon{
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+}
+
+.practiceTopBarTitle {
+	color: #EC008C;
+	font-family: Regular;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 14px;
+	
+}
+
+.practicePhone {
+	margin-left: 10px;;
+}
+
+.noResultBox p,
+h4 {
+	color: #444444;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 24px;
+	text-align: center;
+}
+
+.noResultBox
+h4 {
+	color: #1F124F !important;
+	font-family: Regular;
+	font-size: 18px !important;
+	font-weight: bold !important;
+	letter-spacing: 0;
+	line-height: 24px;
+	text-align: center;
+}
+
+.noResultBox {
+	width: 100%;
+	margin: 0 auto;
+	height: 500px;
+	padding-top: 170px;
+}
+
+.card-list-title{
+	border: none;
+	display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.card-list-title .highlight-text{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 19px;
+}
+
+.card-list-title .normal-text{
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 19px;
+}
+
+.practiceGroup h5 {
+	color: #7A7E81;
+	font-family: Regular;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 13px;
+}
+
+/*  map=======*/
+
+.map-wrapper{
+	margin-top:15px;
+}
+.map-wrapper + div{
+	width: 100% !important;
+}
+
+.provider-details {
+	margin: 4% 0 0 15%;
+}
+
+.icon-map-pin-primary {
+	background-image: url("../../../assets/icons/Pin-brand-teal.svg");
+	height:24px;
+	width:20px;
+}
+
+.provider-location-title {
+	font-size: 16px !important;	
+}
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-block;
+}
+.icon-map-marker-primary {
+    background-image: url("../../../assets/icons/Pin-brand-teal-2.svg");	
+    background-size: contain;
+    width: 50px!important;
+    height: 50px!important;
+    background-repeat: no-repeat;
+}
+.icon-phone-primary {
+	background-image: url("../../../assets/icons/Phone.svg");
+	background-repeat: no-repeat;
+	width:19px;
+	height:21px;
+	left: 10px;
+    bottom: 15px;
+}
+.icon-phone {
+	background-image: url("../../../assets/icons/Phone.svg");
+	background-repeat: no-repeat;
+	width:19px;
+	height:21px;
+	left: 10px;
+    bottom: 15px;
+}
+.phone-fax  {
+	background-image: url("../../../assets/icons/fax.svg");
+	background-repeat: no-repeat;
+	padding-left:30px;
+}
+
+.NoLeftPadding{
+	padding-left: 0px !important;
+}
+
+

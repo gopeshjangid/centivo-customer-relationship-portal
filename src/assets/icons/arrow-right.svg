@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="12px" viewBox="0 0 14 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.1 (78136) - https://sketchapp.com -->
+    <title>FF2B8A0E-C883-46B9-A810-4B6FD3C3ADC1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.1893398,8.25 L9.96966991,5.03033009 C9.6767767,4.73743687 9.6767767,4.26256313 9.96966991,3.96966991 C10.2625631,3.6767767 10.7374369,3.6767767 11.0303301,3.96966991 L15.5303301,8.46966991 C15.8232233,8.76256313 15.8232233,9.23743687 15.5303301,9.53033009 L11.0303301,14.0303301 C10.7374369,14.3232233 10.2625631,14.3232233 9.96966991,14.0303301 C9.6767767,13.7374369 9.6767767,13.2625631 9.96966991,12.9696699 L13.1893398,9.75 L3,9.75 C2.58578644,9.75 2.25,9.41421356 2.25,9 C2.25,8.58578644 2.58578644,8.25 3,8.25 L13.1893398,8.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Management-Tool-PCP" transform="translate(-1295.000000, -180.000000)">
+            <g id="Pagination" transform="translate(983.000000, 172.000000)">
+                <g id="Icon/arrow-right-Copy-3" transform="translate(310.000000, 5.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill="#7A7E81" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

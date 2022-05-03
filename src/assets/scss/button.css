@@ -1,0 +1,73 @@
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+@font-face {
+  font-family: 'Regular-Bold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-BoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-Medium';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-MediumItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.button {
+  border-radius: 2.8125rem; }
+  .button-primary {
+    color: #ffffff;
+    background-color: #ED008B;
+    border-radius: 2.5rem; }
+    .button-primary:hover:not(.disabled), .button-primary:focus, .button-primary:active {
+      box-shadow: 0.125rem 0.25rem 0.375rem 0 #BFBBBB;
+      color: #ffffff; }
+    .button-primary::visited, .button-primary::active {
+      color: #ffffff;
+      background: #C30072; }
+  .button:disabled {
+    color: #7A7E81;
+    box-shadow: none;
+    background-color: #BBBDBF; }
+  .button:not(:disabled)::hover {
+    color: #ffffff !important; }
+  .button-small {
+    font-size: 0.75rem;
+    height: 1.875rem;
+    width: 7.5rem; }
+  .button-selected-member {
+    border: 1px solid #ED008B;
+    padding: 5px 30px 5px 20px;
+    margin: 5px 5px 10px 5px;
+    background: #ffffff;
+    color: #444444;
+    position: relative; }
+    .button-selected-member .icon {
+      position: absolute;
+      right: 10px;
+      top: 10px; }

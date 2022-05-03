@@ -1,0 +1,239 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/custom_bootstrap';
+@import '../../../assets/scss/mixin';
+.select-template-container {
+  height: inherit;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 30px;
+  @include border-radius(4px);
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      a {
+        padding: 5px;
+      }
+    }
+  }
+}
+.select-template-container + .d-flex {
+  position: relative;
+  margin-top: 20px;
+}
+
+.dropdown-container {
+  .list-group {
+    border: 1px solid $input-border;
+    border-top: 0;
+  }
+}
+
+.close {
+  text-align: right;
+}
+
+.template-area {
+  padding-top: 17px;
+
+  a {
+    color: $black;
+  }
+}
+
+.label-large {
+  font-size: 1.05em;
+}
+
+.card {
+  margin-bottom: 15px;
+  .input-group-prepend {
+    span.input-group-text {
+      width: 110px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+      font-weight: 500;
+      text-align: center;
+      display: block;
+      line-height: 30px;
+    }
+  }
+
+  .input-group-append {
+    span.input-group-text {
+      width: 50px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  .new-template {
+    text-align: right;
+    padding: 0px 15px 10px 0px;
+    cursor: pointer;
+  }
+
+  .border-radius-0 {
+    border-radius: 0px;
+  }
+}
+
+.card-header {
+  font-weight: 500;
+}
+
+.select-message-type-label {
+  margin-bottom: 15px;
+}
+
+.left-border-radius-0 {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.react-datepicker__time-container {
+  width: 100px;
+  .react-datepicker__time {
+    .react-datepicker__time-box {
+      width: 100px;
+      ul.react-datepicker__time-list {
+        padding: 0px !important;
+      }
+    }
+  }
+}
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 115px;
+}
+.message-template {
+  .form-control {
+    // border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .message-box {
+    border: 1px solid #c8c8c8;
+    padding: 17px 46px 50px 46px;
+    h3 {
+      @extend %font-regular;
+      font-size: 24px;
+      color: #1f124f;
+      font-weight: 600;
+    }
+    .message-form-wrapper {
+      padding-top: 6px;
+      .form-field-wrapper {
+        padding: 10px 0;
+        @extend %font-regular;
+        label {
+          padding-left: 12px;
+          font-size: 14px;
+          color: #444444;
+          font-weight: 600;
+          &:last-child {
+            padding-left: 0;
+          }
+        }
+        .form-control {
+          height: 40px;
+          border-radius: 3px;
+          color: #444;
+          font-weight: 500;
+        }
+        .select-wrapper {
+          position: relative;
+          &::after {
+            content: '';
+            height: 24px;
+            width: 24px;
+            background-image: url(./../../../assets/images/check-circle-checked@1x.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 7px;
+            right: 5px;
+            pointer-events: none;
+          }
+        }
+      }
+      .template-message-box {
+        padding-top: 40px;
+        .form-control {
+          height: 280px;
+        }
+      }
+    }
+  }
+}
+
+.new-message-confirmation {
+  min-width: 420px;
+  max-width: 700px !important;
+  @extend %font-regular;
+  .modal-header {
+    background: $white;
+    padding: 19px 10px 7px 30px;
+    border: none;
+  }
+  .modal-body {
+    padding: 0 32px;
+  }
+  .title {
+    @extend %regular_bold;
+    color: $color-dark-blue;
+    font-size: 26px;
+    line-height: 45px;
+  }
+  .criteria-search-categories,
+  .criteria-search-selected {
+    color: $color-gray;
+    font-size: $size-lg;
+  }
+  .criteria-search-selected {
+    font-weight: 500;
+  }
+  .selected-options-description {
+    margin-bottom: 5px;
+  }
+  .custom-round-btn-primary,
+  .custom-round-btn-secondary {
+    @extend %regular_bold;
+    @include border-radius(20.5px);
+    height: 35px;
+    width: 150px;
+    padding: 0;
+    line-height: 19px;
+  }
+  .custom-round-btn-primary {
+    background-color: $line-color-dark;
+    border-color: $line-color-dark;
+    &:hover {
+      background-color: #e4550d;
+      border-color: #d8510c;
+    }
+  }
+  .custom-round-btn-secondary {
+    background-color: $color-gray-secondary;
+    border-color: $color-gray-secondary;
+    margin-right: 10px !important;
+  }
+  .modal-footer {
+    padding: 20px 16px;
+    border: none;
+  }
+  .message-sent-success {
+    padding-bottom: 40px;
+  }
+  .message-sent-success-msg {
+    @extend %regular_bold;
+    color: #1f124f;
+    font-size: 40px;
+  }
+}
+.new-message-confirmation.modal-dialog {
+  top: 140px;
+  margin-top: 0;
+}

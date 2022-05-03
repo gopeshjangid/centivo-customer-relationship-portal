@@ -1,0 +1,125 @@
+@import "./../../../assets/scss/variables";
+
+.messageList {
+  .email-body {
+    white-space: pre-line;
+  }
+
+  .criteria-wrapper {
+    padding: size(15);
+  }
+}
+
+.move-message-checkbox {
+  opacity: 0;
+  width: 200px;
+  position: absolute;
+  right: 0;
+  height: 40px;
+}
+
+.move-message-label {
+  font-weight: 500;
+  color: #5586ef;
+  font-size: 14px;
+}
+
+.move-message-checkbox:checked + i {
+  background-image: url(./../../../assets/images/check-circle-checked@1x.svg);
+}
+
+.attachment-icons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 107px);
+  grid-gap: 1em;
+  margin: 5px 0px 10px 0px;
+  width: 100%;
+  .upload-file-icon {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    padding: 5px;
+    min-height: 130px;
+    position: relative;
+    .icon {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 50%;
+    }
+    .desc {
+      p {
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(149, 152, 154, 1);
+        margin: 0;
+      }
+    }
+    .cross-icon {
+      cursor: pointer;
+      position: absolute;
+      top: -5px;
+      right: -7px;
+    }
+  }
+}
+
+.email-attachments-wrapper {
+  margin-top: 30px;
+  //margin-bottom: 30px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 275px); //repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: start;
+  align-items: flex-start;
+  // overflow-wrap: break-word;
+
+  .email-attachment {
+    width: 275px;
+    // height: 100px;
+
+    position: relative;
+    .top {
+      height: 50px;
+      display: grid;
+      grid-template-columns: 0.9fr 5fr;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #BBBDBF;
+      padding: 7px;
+      .file-desc {
+        max-width: 95%;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        p {
+          color: $color-text;
+          line-height: normal;
+          font-size: 14px;
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
+    .cross-icon {
+      cursor: pointer;
+      position: absolute;
+      top: -10px;
+      right: -7px;
+    }
+  }
+}
+
+.isDragActiveOverlay {
+  display: none;
+}
+
+.message-dialog {
+  
+  .modal-footer {
+    justify-content: space-between;
+  }
+}

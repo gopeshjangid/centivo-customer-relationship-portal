@@ -1,0 +1,119 @@
+@import './mixin';
+
+$mainbg-color: #f0f0f0;
+$brand-color: #00a79d;
+$white: #ffffff;
+$link-color: #f36a24;
+$line-color-dark: #f36a23;
+$second-brand-color: #f1416f;
+$input-border: #ced4da;
+$border-color: #dadada;
+$black: #000000;
+$table-border: #dee2e6;
+$tab-disabled-bg-color: #bbb;
+$tab-disabled-text-color: #6c757d;
+$table-row-hover-color: #ddd;
+$color-dark-blue: #1f124f;
+$color-gray: #444444;
+$color-light-gray: #95989a;
+$color-primary-pink: #ec008c;
+$color-red: #d62020;
+$color-grey-border: #f5f5f5;
+$color-grey-lighter: #f6f7fa;
+$color-outline: #bbbdbf;
+$color-text: #333333;
+$color-gray-secondary: #6d757d;
+$color-blue: #5586ef;
+
+
+
+@font-face {
+    font-family: 'Regular-Bold';
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Regular-BoldItalic';
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Regular-Medium';
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Regular-MediumItalic';
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Regular-SemiBold';
+  
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Regular-SemiBoldItalic';
+    src: url('https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf')
+      format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  %regular_semibold {
+    font-family: 'Regular-SemiBold', sans-serif;
+  }
+  
+  %regular_bold {
+    font-family: 'Regular-Bold', sans-serif;
+  }
+  
+  %regular_bolditalic {
+    font-family: 'Regular-BoldItalic', sans-serif;
+  }
+  
+  %font-regular {
+    font-family: 'Regular-Medium', sans-serif;
+  }
+  
+  %font-regular-italic {
+    font-family: 'Regular-MediumItalic', sans-serif;
+  }
+  
+  %uppercase {
+    text-transform: uppercase;
+  }
+  
+  %ellipses {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+  
+  $size-xl: size(26);
+  $size-lg: size(16);
+  $size-md: size(14);
+  $size-sm: size(12);
+  $size-xs: size(10);
+  
+  $mobile: 'only screen and (max-width : 767px)';
+  $tablet: 'only screen and (min-width : 768px) and (max-width : 1023px)';
+  $desktop: 'only screen and (min-width : 1024px)';
+
+  

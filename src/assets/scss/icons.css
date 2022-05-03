@@ -1,0 +1,117 @@
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+@font-face {
+  font-family: 'Regular-Bold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-BoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-Medium';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-MediumItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .icon-calendar {
+    background-image: url(./../icons/calendar@1x.svg);
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    vertical-align: -4px;
+    margin-left: 10px; }
+  .icon-x-circle {
+    width: 0.875rem;
+    height: 0.875rem;
+    background-image: url(./../icons/x-circle@1x.svg); }
+  .icon-error-info {
+    background-image: url(./../icons/alert-circle-error@1x.svg); }
+  .icon-logout {
+    background-image: url(./../icons/log-out@1x.svg);
+    background-position: center; }
+  .icon-chevron-down {
+    background-image: url(./../icons/chevron-down@1x.svg);
+    background-size: contain; }
+  .icon-checkbox-unselected {
+    background-image: url("./../images/Checkbox-Unselected@3x.svg");
+    height: 15px;
+    width: 15px;
+    vertical-align: -1px;
+    margin-right: 8px; }
+  .icon-checkbox-selected {
+    background-image: url("./../images/Checkbox-Selected@3x.svg");
+    height: 15px;
+    width: 15px;
+    vertical-align: -1px;
+    margin-right: 8px; }
+  .icon-radio-unselected {
+    background-image: url("./../images/Unselected@3x.svg");
+    height: 15px;
+    width: 15px;
+    vertical-align: -1px;
+    margin-right: 8px; }
+  .icon-radio-selected {
+    background-image: url("./../images/Selected@3x.svg");
+    height: 15px;
+    width: 15px;
+    vertical-align: -1px;
+    margin-right: 8px; }
+  .icon-check-circle {
+    background-image: url("./../images/check-circle@3x.svg");
+    height: 68px;
+    width: 68px; }
+  .icon-chevron-right {
+    background-image: url("./../icons/chevron-right@1x.svg"); }
+  .icon-chevron-left {
+    background-image: url("./../icons/chevron-left@1x.svg"); }
+  .icon-close {
+    background-image: url("./../icons/x@1x.svg");
+    background-repeat: no-repeat;
+    background-position: center center; }
+  .icon-search {
+    background-image: url("./../icons/search@1x.svg");
+    background-repeat: no-repeat;
+    background-position: center center; }
+
+.logout {
+  position: relative; }
+  .logout .icon {
+    position: absolute;
+    bottom: 0.0625rem;
+    right: -0.8125rem; }
+
+.search-bar-wrapper {
+  position: absolute;
+  top: -1.375rem;
+  right: 0.875rem; }

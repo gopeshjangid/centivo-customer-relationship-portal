@@ -1,0 +1,103 @@
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+/* define custom variables for SCSS file*/
+@font-face {
+  font-family: 'Regular-Bold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-BoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-Medium';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-MediumItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBold';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Regular-SemiBoldItalic';
+  src: url("https://s3.amazonaws.com/dev-centivo-provider-employer-resources/fonts/Regular-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* override bootstrap variables */
+/* custom mixin */
+/**
+    pixel to rem converter
+*/
+.modal-dialog {
+  /*margin: 0; */
+  width: 80% !important;
+  max-width: initial; }
+  .modal-dialog .modal-content,
+  .modal-dialog .modal-body {
+    height: 100%; }
+  .modal-dialog .modal-header {
+    background: #f6f7fa; }
+  .modal-dialog .modal-title {
+    width: 100%; }
+    .modal-dialog .modal-title .title {
+      width: calc(100% - 50px);
+      white-space: normal;
+      word-break: break-all;
+      float: left; }
+    .modal-dialog .modal-title .close {
+      opacity: 1; }
+  .modal-dialog .modal-footer .copy-text-inputs .input-group-prepend span {
+    text-transform: capitalize;
+    font-weight: 500;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; }
+  .modal-dialog .modal-footer .copy-text-inputs .input-group-append {
+    cursor: pointer; }
+    .modal-dialog .modal-footer .copy-text-inputs .input-group-append span {
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px; }
+  .modal-dialog .modal-footer .copy-text-inputs input {
+    background: #ffffff !important; }
+    .modal-dialog .modal-footer .copy-text-inputs input.tempPassword {
+      color: transparent;
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); }
+      .modal-dialog .modal-footer .copy-text-inputs input.tempPassword::selection {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+      .modal-dialog .modal-footer .copy-text-inputs input.tempPassword::-moz-selection {
+        color: transparent;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+#popupList {
+  height: calc(100% - 30px); }
+  #popupList h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; }
+  #popupList .button-row-fixed {
+    height: calc(100% - 53px); }
+  #popupList #grid-col-selectCheckBox {
+    width: 50px; }
+  #popupList #grid-col-language {
+    width: 100px; }
+  #popupList #grid-col-externalId {
+    width: 45%; }
+  #popupList table tbody tr td:first-child {
+    text-align: center; }

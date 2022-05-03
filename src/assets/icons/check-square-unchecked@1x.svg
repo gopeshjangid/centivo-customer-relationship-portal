@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/check-square-unchecked@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,4 C3.44771525,4 3,4.44771525 3,5 L3,19 C3,19.5522847 3.44771525,20 4,20 L18,20 C18.5522847,20 19,19.5522847 19,19 L19,5 C19,4.44771525 18.5522847,4 18,4 L4,4 Z M4,2 L18,2 C19.6568542,2 21,3.34314575 21,5 L21,19 C21,20.6568542 19.6568542,22 18,22 L4,22 C2.34314575,22 1,20.6568542 1,19 L1,5 C1,3.34314575 2.34314575,2 4,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/check-square-unchecked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#7A7E81" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

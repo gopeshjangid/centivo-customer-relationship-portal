@@ -1,0 +1,90 @@
+@import './../../../../assets/scss/_variables';
+// @import '../../../../../assets/css/custom_bootstrap';
+@import './../../../../assets/scss/_mixin';
+
+.criteria-select-text {
+  font-weight: 500;
+  height: 40px;
+  line-height: 40px;
+}
+.select-template-container {
+  .criteria-select-text {
+    margin-top: 20px;
+  }
+}
+
+.searchLoader {
+  margin-top: 20px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.custom-round-checkBox {
+  border-radius: 25px !important;
+}
+
+.criteriaSearch {
+  .marginBottom {
+    margin-bottom: 5px;
+  }
+}
+.selectionCriteria {
+  .inline-radio {
+    margin-top: -0.5rem;
+    label {
+      font-weight: initial !important;
+      width: 250px;
+    }
+    .criteriaInput {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      opacity: 0;
+    }
+  }
+}
+
+.main-bg {
+  padding: 10px;
+  background: rgba($color-grey-lighter, 0.5);
+}
+
+.selectionCriteria {
+  height: auto;
+
+  .selectCriteriaList {
+    .form-group {
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .tab-content {
+    margin-bottom: 20px;
+    padding: size(20);
+  }
+
+  .selectedPlanType {
+    border-radius: 0px !important;
+    margin-top: 10px;
+  }
+}
+
+
+.selectionCriteria {
+  .input-group-prepend {
+    span {
+      border-top-right-radius: 25px !important;
+      border-bottom-right-radius: 25px !important;
+    }
+  }
+
+  .card {
+    background-color: transparent !important;
+    border: none !important;
+  }
+}

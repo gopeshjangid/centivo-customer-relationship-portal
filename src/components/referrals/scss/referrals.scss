@@ -1,0 +1,86 @@
+@import '../../../assets/scss/variables';
+
+.create-referral {
+    .modal-title {
+      &-referral {
+        font-size: 18px;
+        color: #4d4d4d;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .modal-header-caption {
+        color: #777777;
+        font-style: italic;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      .close-modal {
+        position: absolute;
+        right: 14px;
+        top: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .create-referral-form {
+    .required {
+      color: $tab-disabled-bg-color;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 12px;
+    }
+    label {
+      font-size: 14px;
+      text-align: right;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .form-control {
+      border-radius: 4px !important;
+      &:focus {
+        border-color: #5586ef;
+        box-shadow: none;
+        box-shadow: 0 0 0 1px #5586ef;
+      }
+      &::placeholder {
+        color: $tab-disabled-bg-color;
+      }
+    }
+    .select__control--is-focused {
+      border-color: #5586ef;
+      box-shadow: 0 0 0 1px #5586ef;
+    }
+    select {
+      font-size: 14px;
+    }
+    .select__placeholder {
+      color: $tab-disabled-bg-color;
+    }
+    .option-seperator {
+      p {
+        font-size: 11px;
+        position: relative;
+        color: $tab-disabled-bg-color;
+        font-weight: bold;
+        margin: 0;
+        &::before,
+        &::after {
+          content: '';
+          height: 2px;
+          display: block;
+          background: $table-border;
+          width: calc(50% - 20px);
+          position: absolute;
+          top: 8px;
+        }
+        &::before {
+          left: 0;
+        }
+        &::after {
+          right: 0;
+        }
+      }
+    }
+  }

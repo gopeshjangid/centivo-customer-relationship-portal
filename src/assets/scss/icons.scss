@@ -1,0 +1,170 @@
+@import './variables';
+
+.icon {
+    width: size(20);
+    height: size(20);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &-edit {
+      width: size(17);
+      height: size(17);
+      background-image: url(./../icons/edit@1x-white.svg);
+    }
+    &-unlock{
+      background-image: url(./../images/unlock@1x.svg);
+      width: size(18);
+      height: size(18);
+      vertical-align:size(-2);
+    }
+    &-calendar {
+        background-image: url(./../icons/calendar@1x.svg);
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+        vertical-align: -4px;
+        margin-left: 10px;
+      }
+      &-x-circle {
+        width: size(14);
+        height: size(14);
+        background-image: url(./../icons/x-circle@1x.svg);
+      }
+    &-error-info {
+        background-image: url(./../icons/alert-circle-error@1x.svg);
+    }
+	&-logout{
+        background-image: url(./../icons/log-out@1x.svg);
+        background-position:center;
+    }
+    &-chevron-down {
+        background-image: url(./../icons/chevron-down@1x.svg);
+        background-size: contain;
+    }
+    &-checkbox-unselected {
+        background-image: url('./../images/Checkbox-Unselected@3x.svg');
+        height: 15px;
+        width: 15px;
+        vertical-align: -1px;
+        margin-right: 8px;
+      }
+      &-checkbox-selected {
+        background-image: url('./../images/Checkbox-Selected@3x.svg');
+        height: 15px;
+        width: 15px;
+        vertical-align: -1px;
+        margin-right: 8px;
+      }
+      &-radio-unselected {
+        background-image: url('./../images/Unselected@3x.svg');
+        height: 15px;
+        width: 15px;
+        vertical-align: -1px;
+        margin-right: 8px;
+      }
+      &-radio-selected {
+        background-image: url('./../images/Selected@3x.svg');
+        height: 15px;
+        width: 15px;
+        vertical-align: -1px;
+        margin-right: 8px;
+      }
+      &-check-circle {
+        background-image: url('./../images/check-circle@3x.svg');
+        height: 68px;
+        width: 68px;
+      }
+      &-chevron-right {
+        background-image: url('./../images/chevron-right@1x.svg');
+      }
+      &-chevron-left {
+        background-image: url('./../images/chevron-left@1x.svg');
+      }
+
+      &-close {
+        background-image: url('./../images/x@1x.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: size(12);
+        width: size(12);
+      }
+      &-closeWhite {
+        background-image: url('./../images/x-white@1x.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: size(12);
+        width: size(12);
+      }
+      &-search {
+        background-image: url('./../images/search@1x.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        vertical-align: size(-5);
+      }
+      &-mail{
+        background-image: url(./../images/mail@1x.svg);
+        width: size(20);
+        height: size(18);
+        vertical-align:size(-2);
+      }
+      &-mailGray{
+        background-image: url(./../images/mail_gray@1x.svg);
+        width: size(20);
+        height: size(18);
+        vertical-align:size(-2);
+      }
+      &-send{
+        background-image: url(./../images/send.svg);
+        width: size(20);
+        height: size(18);
+        vertical-align:size(-2);
+      }
+      &-lock{
+        background-image: url(./../images/lock@1x.svg);
+        width: size(18);
+        height: size(18);
+        vertical-align:size(-2);
+      }
+      &-corner-up-left {
+        background-image: url('./../images/corner-up-left@1x.svg');
+        width: 18px;
+        height: 18px;
+        vertical-align: -4px;
+        margin-right: 10px;
+      }
+      &-copy-to-clipboard {
+        background-image: url('./../images/copy@1x.svg');
+        height: 24px;
+        width: 24px;
+        vertical-align: -6px;
+        margin-right: 8px;
+      }
+      &-circle {
+        width: 22px;
+        height: 22px;
+        vertical-align: -5px;
+        margin-right: 10px;
+        &-unchecked {
+          background-image: url('./../images/check-circle-unchecked@1x.svg');
+        }
+        &-checked {
+          background-image: url('./../images/check-circle-checked@1x.svg');
+        }
+      }
+
+
+}
+.logout {
+    position: relative;
+    .icon {
+        position: absolute;
+        bottom: size(1);
+        right: size(-13);
+    }
+}
+
+.search-bar-wrapper {
+    position: absolute;
+    top: size(-22);
+    right: size(14);
+}

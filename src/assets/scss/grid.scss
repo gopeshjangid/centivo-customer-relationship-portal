@@ -1,0 +1,113 @@
+@import './variables';
+@import './custom_bootstrap';
+@import './mixin';
+
+.member-tab {
+  margin-bottom: 20px !important;
+}
+
+div[class*='table---th---'] {
+  background-color: $white !important;
+  border: 0px solid !important;
+  border-bottom: 2px solid $blue !important;
+}
+
+div[class*='table---th-content---'] {
+  color: #000 !important;
+}
+
+div[class*='table---table-hover---'] div[class*='table---tr-hover---'] {
+  background: $table-row-hover-color !important;
+  cursor: pointer;
+}
+
+div[class*='table---td---'] {
+  border: 0px solid !important;
+}
+
+.table-row {
+  cursor: pointer;
+}
+
+// .table-row:nth-child(odd) {
+//   background-color: rgba(0, 0, 0, 0.05);
+// }
+
+div[class*='table---thead---']
+  div[class*='table---sortable---']
+  div[class*='table---th-content---']:after {
+  // font-family: FontAwesome;
+  content: '';
+  background-image: url('./../images/arrow-down-copy5@1.5x.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width:20px;
+  height:20px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  color: #000;
+  font-size: 13px;
+}
+
+i[class*='table---order-asc---'],
+i[class*='table---order-desc---'] {
+  background-image: none !important;
+}
+
+div[class*='table---thead---']
+  div[class*='table---sortable-highlight---']
+  div[class*='table---th-content---']:after {
+  display: none !important;
+}
+
+i[class*='table---order-asc---']:after {
+  content: '\25BC';
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  height: 25px;
+  font-size: 12px;
+}
+
+i[class*='table---order-desc---']:after {
+  content: '\25B2';
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+  height: 25px;
+  background-image: none !important;
+  font-size: 12px;
+}
+
+div[class*='table---thead---'] div[class*='table---sortable-highlight---'] {
+  background: $blue !important;
+}
+
+div[class*='paginations---table-pagination---'] {
+  border-bottom: 1px solid $table-border;
+  text-align: right;
+}
+
+div[class*='paginations---table-pagination-block---'] {
+  margin: 10px;
+  display: inline-block;
+}
+
+.msgSubject div[class*='table---td-content---'] {
+  white-space: pre !important;
+}
+
+.msgSubject .ulOnHover:hover {
+  text-decoration: underline;
+}
+
+.msgSubject .ulOnHover.highlighted {
+  color: $blue;
+  text-decoration: underline;
+}
+
+/*
+div[class*="paginations---pagination-input---"] {
+    display: none;
+}*/

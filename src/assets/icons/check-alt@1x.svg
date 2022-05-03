@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/check-alt@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.80555556,17.214369 L5.0271893,13.5687229 C4.56344171,13.118118 3.81155829,13.118118 3.3478107,13.5687229 C2.8840631,14.0193279 2.8840631,14.7499029 3.3478107,15.2005078 L7.96586625,19.6620463 C8.42961385,20.1126512 9.18149726,20.1126512 9.64524486,19.6620463 L21.6521893,6.96973859 C22.1159369,6.51913364 22.1159369,5.78855867 21.6521893,5.33795371 C21.1884417,4.88734876 20.4365583,4.88734876 19.9728107,5.33795371 L8.80555556,17.214369 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/check-alt" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#7A7E81" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

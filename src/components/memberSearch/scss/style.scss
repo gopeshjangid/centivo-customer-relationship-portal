@@ -1,0 +1,173 @@
+@import './../../../assets/scss/variables';
+@import './../../../assets/scss/button.scss';
+
+.row {
+    &.form-group {
+        .form-control {
+                @extend %font-regular;
+                font-size: size(18);
+                font-weight: 500;
+                line-height: size(22);
+                color: $color-placeholer;
+                border: 1px solid $color-placeholer;
+                border-radius: size(4);
+                
+                min-height: size(50);
+
+                color: $color-font-default;
+                &:active, &:focus {
+                    color: $color-font-default;
+                    border: 1px solid $color-focus;
+                    outline: none;
+                    box-shadow: none;
+                }
+                &.error {
+                    border: 1px solid $color-error;
+                }
+            }
+        }
+    }
+
+div[role="presentation"] {
+    &.member-search-result {
+        &:hover {
+            background-color: $blue !important;
+            color: $color-white !important;
+        }
+    }
+}
+
+.button-primary {
+    height: size(40);
+    width: size(200);
+}
+.custom-round-btn {
+    height: size(40);
+    width: size(200);
+    border-radius: size(25) !important;
+    background: $color-placeholer !important;
+    border: 1px solid $color-placeholer !important;
+    &:disabled {
+        opacity: 0.7;
+        color: $color-disable;
+    }
+}
+
+[name=memberSearch] .form {
+    &-label {
+        color: $blue;
+    }
+    input {
+        &:focus, &:active {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+}
+
+.text-required {
+    position: absolute;
+    right: 0;
+    margin-top: size(70);
+    font-size: $size-sm;
+    color: $color-label;
+    @extend %font-regular-italic;
+}
+
+
+.react-date-picker{
+    &__wrapper {
+        border-width: 0;
+    }
+    &__inputGroup {
+        width: size(210);
+        height: 38px;
+    }
+    &__clear-button {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        &:focus, &:active {
+            box-shadow: none;
+            outline: none;
+        }
+    
+    }
+    &__calendar-button {
+        &:focus, &:active {
+            box-shadow: none;
+            outline: none;
+        }
+    }
+}
+.icon-error-info {
+    vertical-align: -6px;
+}
+
+
+.icon-calendar {
+    position: absolute;
+    top: size(48);
+}
+
+
+.input-group-append {
+    position: absolute;
+    right: size(10);
+    top: size(10);
+    z-index: 10;
+    cursor: pointer;
+    .btn {
+        &:focus, &:active {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}
+.error-header {
+    @extend %regular_bold;
+    color: $color-error;
+    font-size: size(18);
+    line-height: size(22);
+}
+.table-container .member-search-result {
+    cursor: pointer;
+    transition: all 0.35s ease-in-out;
+    &:hover {
+        background-color: $blue !important;
+        color: $color-white !important;
+    }
+}
+.button-link {
+    border: 1px solid $color-placeholer !important;
+    margin-left: 10px;
+    font-size: $size-sm !important;
+    &:hover {
+        text-decoration: none !important;
+    }
+}
+
+
+input[type=text] {
+    &.form-control {
+        border-radius: size(4) !important; 
+    }
+}
+
+
+.message-header {
+    @extend %regular_bold;
+    font-size: size(16);
+    color: $blue;
+    padding-bottom: size(10);
+}
+
+form[name="memberSearch"] {
+    .react-date-picker__button {
+        position: relative;
+    }
+    .icon-calendar {
+        position: inherit;
+        top: inherit;
+    }
+}

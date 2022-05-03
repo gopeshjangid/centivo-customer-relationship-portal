@@ -1,0 +1,116 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/custom_bootstrap';
+
+.header {
+  border-bottom: solid 5px $blue;
+  padding: 2px 0;
+  background: $white;
+  .bg-light {
+    background-color: $white !important;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start;
+  }
+
+  .logo-navbar {
+    height: 25px;
+    margin-top: 20px;
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      li {
+        text-transform: uppercase;
+        border-radius: 25px;
+        border: solid 2px $white;
+        margin-right: 10px;
+        padding: 0 10px;
+        &.active,
+        &:hover {
+          border: solid 2px $color-primary-pink;
+          background: $color-primary-pink;
+          position: relative;
+          // &:before {
+          //   content: '';
+          //   height: 32px;
+          //   width: 18px;
+          //   position: absolute;
+          //   left: -2px;
+          //   bottom: -13px;
+          //   background: url('../../../assets/images/menu-arrow.jpg') no-repeat 0
+          //     0;
+          // }
+          .nav-link,
+          .nav-link:hover {
+            color: $white;
+          }
+        }
+        &:last-child:hover {
+          border-color: $white;
+        }
+        &.logout {
+          padding: 0.5rem 0rem;
+          margin: 0;
+          background: none;
+          &:hover a {
+            color: $second-brand-color !important;
+          }
+          a {
+            font-size: 1.3em;
+            padding: 0.25rem 0rem;
+          }
+          &:before {
+            height: 0;
+            width: 0;
+          }
+
+          .logout-user {
+            font-size: 1.3em;
+            padding: 0.25rem 0;
+            color: rgba($black, 0.5);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    .logo-navbar {
+      height: 25px;
+      margin-top: 0px;
+    }
+
+    .navbar-light {
+      .navbar {
+        justify-content: flex-end;
+      }
+      .navbar-nav {
+        padding-top: 1px;
+        li {
+          border-radius: 0px;
+          border-width: 0 0 1px 0 !important;
+          border-color: $input-border;
+          margin: 0;
+          &.active,
+          &:hover {
+            border-width: 0 0 1px 0 !important;
+            &:before {
+              display: none;
+            }
+          }
+          &.logout {
+            padding: 0 10px;
+            margin: 0;
+          }
+          &:last-child {
+            border-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}

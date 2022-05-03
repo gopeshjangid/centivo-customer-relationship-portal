@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icon/check-circle-unchecked@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,21 C15.9705627,21 20,16.9705627 20,12 C20,7.02943725 15.9705627,3 11,3 C6.02943725,3 2,7.02943725 2,12 C2,16.9705627 6.02943725,21 11,21 Z M11,23 C4.92486775,23 0,18.0751322 0,12 C0,5.92486775 4.92486775,1 11,1 C17.0751322,1 22,5.92486775 22,12 C22,18.0751322 17.0751322,23 11,23 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/check-circle-unchecked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#7A7E81" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

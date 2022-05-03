@@ -1,0 +1,18 @@
+@import '../../../assets/css/custom-mixin';
+@import '../../../assets/css/custom-variables';
+
+.react-multi-email-custom {
+  border-radius: 25px;
+  .email-text-wrapper {
+    border: 1px solid $input-border;
+    padding: 5px 10px;
+    margin: 5px !important;
+    background: $mainbg-color;
+
+    .delete {
+      margin-left: 10px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@import '../../../assets/scss/variables';
+
+.editFieldInputBox {
+  max-width: 250px;
+  display: inline-block !important;
+  border-radius: 0px !important;
+}
+.communication-label {
+  width: 50px;
+  display: inline-block;
+    vertical-align: super;
+
+}
+
+.communicationRadioBox {
+ font-family: 'Regular-Medium', sans-serif;
+ font-size: 1rem;
+  
+ }
+.communicationRadioField{
+  height: 20px;
+  width: 20px;
+}
+
+.communicationRadioDiv{
+  width: 45%;
+  padding-bottom: 10px;
+  label{
+    margin-bottom: 0px;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  div{
+    color: rgb(68, 68, 68);
+    font-family: Regular;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 13px;
+    margin-left: 35px;
+  }
+}
+
+.editButtons {
+  display: inline-block;
+  padding: 0px 10px;
+  a {
+    color: $link-color !important;
+    cursor: pointer;
+    font-size: 12px;
+
+    &:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.error {
+  font-size: 12px;
+  color: $second-brand-color;
+}
+
+.modal-dialog.modal-address {
+  .modal-content {
+    max-width: 520px;
+    margin: 0 auto;
+    .form-control {
+      border-radius: 0;
+    }
+  }
+}
+
+.modal-dialog.modal-reset-body {
+  max-width: 360px !important;
+}
+
+.table---tr---3XEXR {
+  .table---td---EVNU5{
+   &:nth-child(2){
+     padding-left: inherit !important;
+   }
+   
+  }
+}

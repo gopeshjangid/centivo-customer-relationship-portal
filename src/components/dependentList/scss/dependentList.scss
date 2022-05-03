@@ -1,0 +1,18 @@
+.eligibilityType.table---td---EVNU5 {
+  height: auto !important;  
+}
+
+.p-absolute .show{
+  position: absolute;
+}
+.dob.table---td---EVNU5 {
+  @extend .eligibilityType;
+}
+.activationStatus.table---td---EVNU5 {
+  @extend .eligibilityType;
+}
+
+.button-dash {
+  margin-left: 15px;
+  display: inline-block;
+}

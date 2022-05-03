@@ -1,0 +1,49 @@
+@import './../../../assets/scss/variables';
+.dobErrorMsg {
+  padding-left: 17px;
+}
+
+.search {
+  tr {
+    cursor: pointer;
+  }
+}
+#memberId{
+  text-transform: uppercase;
+  &::placeholder{
+    text-transform: capitalize;
+  }
+}
+.member-search-form {
+  .form-control {
+    @include border-radius(5px);
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .option-seperator {
+    p {
+      font-size: 11px;
+      position: relative;
+      color: $tab-disabled-bg-color;
+      font-weight: bold;
+      margin: 0;
+      &::before,
+      &::after {
+        content: '';
+        height: 2px;
+        display: block;
+        background: $table-border;
+        width: calc(50% - 20px);
+        position: absolute;
+        top: 8px;
+      }
+      &::before {
+        left: 0;
+      }
+      &::after {
+        right: 0;
+      }
+    }
+  }
+}

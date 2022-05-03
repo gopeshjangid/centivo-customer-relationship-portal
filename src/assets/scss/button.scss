@@ -1,0 +1,53 @@
+@import './variables';
+
+.button {
+    border-radius: size(45);
+    &-primary {
+        
+
+        color: $color-white;
+        background-color: $color-primary-pink;
+        border-radius: size(40);
+        
+
+        &:hover:not(.disabled), &:focus, &:active {
+            box-shadow: size(2) size(4) size(6) 0 $color-button-hover;
+            color: $color-white;
+        }
+
+        &::visited, &::active{
+            color: $color-white;
+            background:$color-primary-visited;
+        }
+        }
+    
+    &:disabled {
+        color: $color-disable;
+        box-shadow: none;
+        background-color: $color-placeholer;
+    }
+    &:not(:disabled)::hover{
+        color: $color-white !important;
+    }
+    &-small {
+        font-size: $size-sm;
+        height: size(30);
+        width: size(120);
+    }
+    &-selected-member {
+        border: 1px solid $color-primary-pink;
+        padding: 5px 30px 5px 20px;
+        margin: 5px 5px 10px 5px;
+        background: $color-white;
+        color: $color-font-default;
+        position: relative;
+
+        .icon {
+            position: absolute;
+            right: 10px;
+            top:10px;
+        }
+      }
+}
+
+

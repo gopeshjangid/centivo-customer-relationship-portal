@@ -1,0 +1,99 @@
+/* custom mixin */
+$base-size: 16;
+/**
+    pixel to rem converter
+*/
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1rem;
+}
+
+
+@mixin border-radius($radius...) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+  }
+  @mixin padding($padding...) {
+      padding: $padding;
+  }
+  @mixin linear-gradient-b($args...) {
+      background-image: -o-linear-gradient($args); 
+      background-image: -moz-linear-gradient($args); 
+      background-image: -webkit-linear-gradient($args); 
+      background-image: linear-gradient($args); 
+  }
+  @mixin alpha-attribute($attribute, $color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    #{$attribute}: $solid-color;
+    #{$attribute}: $color;
+  }
+  @mixin Box-Shadow($top, $left, $blur, $color, $inset:"") {
+      -webkit-box-shadow:$top $left $blur $color #{$inset};
+      -moz-box-shadow:$top $left $blur $color #{$inset};
+      box-shadow:$top $left $blur $color #{$inset};
+    }
+    
+  @mixin transition($transition...) {
+      -moz-transition:    $transition;
+      -o-transition:      $transition;
+      -webkit-transition: $transition;
+      transition:         $transition;
+  }
+  @mixin Opacity($value){
+    $IEValue: $value*100;
+    opacity: $value;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+    filter: alpha(opacity=$IEValue);
+  }
+  @mixin box-sizing($box-model) {
+      -webkit-box-sizing: $box-model; // Safari <= 5
+         -moz-box-sizing: $box-model; // Firefox <= 19
+              box-sizing: $box-model;
+    }
+
+
+    
+$item: 50;
+
+@mixin margin-list {
+  @for $i from 1 through $item {
+    .margin-left-#{$i} {
+      margin-left: size($i);
+    }
+    .margin-right-#{$i} {
+      margin-right: size($i);
+    }
+    .margin-bottom-#{$i} {
+      margin-bottom: size($i);
+    }
+    .margin-top-#{$i} {
+      margin-top: size($i);
+    }
+    .margin-#{$i} {
+      margin: size($i);
+    }
+  }
+}
+
+@mixin padding-list {
+  @for $i from 1 through $item {
+    .padding-left-#{$i} {
+      padding-left: size($i);
+    }
+    .padding-right-#{$i} {
+      padding-right: size($i);
+    }
+    .padding-bottom-#{$i} {
+      padding-bottom: size($i);
+    }
+    .padding-top-#{$i} {
+      padding-top: size($i);
+    }
+    .padding-#{$i} {
+      padding: size($i);
+    }
+  }
+}
